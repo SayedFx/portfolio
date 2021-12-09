@@ -5,9 +5,7 @@
 
 .home {
   height: 100%;
-  padding-top: 80vh;
-  overflow: hidden;
-  align-items: center;
+  padding-top: 60vh;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)), url("../images/yousef.webp") left center;
   background-size: cover;
   background-repeat: no-repeat;
