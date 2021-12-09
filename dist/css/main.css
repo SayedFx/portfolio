@@ -5,8 +5,8 @@
 
 .home {
   height: 100%;
-  padding-top: 60vh;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)), url("../images/yousef.webp") left center;
+  padding-top: 50vh;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)), url("../images/yousef.webp") center center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 10vw; }
