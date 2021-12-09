@@ -1,0 +1,44 @@
+@mixin contact-items {
+  display:flex;
+  i{margin-right:10px;}
+  div{margin-left:10px;}
+}
+
+.contact {
+  height:100%;
+  overflow:hidden;
+  display:flex;
+  justify-content:flex-end;
+  padding-bottom: 2rem;
+  padding-left:1rem;
+  flex-direction:column;
+  background: $main-background-gradient,url('../images/yousef.webp') center left;
+  background-size:cover;
+  background-repeat:no-repeat;
+    h2{
+      font-size:3rem;
+      margin-bottom:2rem;
+    }
+
+    &__list {
+      display:grid;
+      grid-template-columns:1fr;
+      grid-gap:2rem;
+      font-size:1.5rem;
+    }
+
+    .social-icons{
+      position:initial;
+      margin-top:2rem;
+
+    }
+    &__email{
+      @include contact-items;
+    }
+    &__phone{
+      @include contact-items;
+    }
+    &__address{
+      @include contact-items;
+    }
+}
